@@ -1,4 +1,4 @@
-import showIndicator from '../health';
+import showHealth from '../health';
 
 test.each([
   { name: 'Маг', health: 51, expected: 'healthy' },
@@ -6,12 +6,12 @@ test.each([
   { name: 'Маг', health: 7, expected: 'critical' },
 ])('should show health', ({ health, expected }) => {
   const data = { health };
-  const received = showIndicator(data);
+  const received = showHealth(data);
   expect(received).toBe(expected);
 });
 
 test('should show health null', () => {
   const expected = null;
-  const received = showIndicator({ name: 'Маг', health: -5 });
+  const received = showHealth({ name: 'Маг', health: -5 });
   expect(received).toBe(expected);
 });
