@@ -1,4 +1,27 @@
 body {
-  color: lightgreen;
-  background-color: #999;
+  margin: 40px;
+}
+
+.healthprogress {
+  border: 2px solid black;
+  height: 20px;
+  width: 200px;
+}
+
+.healthy {
+  height: 100%;
+  width: 100%;
+  background-color: #00ff00;
+}
+
+.wounded {
+  height: 100%;
+  width: 50%;
+  background-color: #ffff00;
+}
+
+.critical {
+  height: 100%;
+  width: 10%;
+  background-color: #ff0000;
 }

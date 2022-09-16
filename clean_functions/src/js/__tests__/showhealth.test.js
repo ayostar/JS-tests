@@ -15,3 +15,8 @@ test('should show health null', () => {
   const received = showHealth({ name: 'Маг', health: -5 });
   expect(received).toBe(expected);
 });
+
+test('no data health', () => {
+  const received = showHealth({ name: 'Маг' });
+  expect(received).toBeNull();
+});
