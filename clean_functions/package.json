@@ -1,0 +1,22 @@
+{
+  "name": "test_cleanfunctions",
+  "version": "1.0.0",
+  "description": "HW_1 Tests JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayostar/JS-tests.git#main"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayostar/JS-tests/issues"
+  },
+  "homepage": "https://github.com/ayostar/JS-tests/tree/main#readme"
+}
